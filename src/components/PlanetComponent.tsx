@@ -26,7 +26,6 @@ const PlanetComponent = ({
 
     const planetTexture = useLoader(THREE.TextureLoader, textureUrl, (loader) => {
         loader.load(textureUrl, _ => {
-            console.log(`Texture loaded for ${name}`);
             setLoaded(index);
         }, undefined, error => {
             console.error(`Error loading texture for ${name}:`, error);
