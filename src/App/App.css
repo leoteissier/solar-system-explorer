@@ -1,0 +1,122 @@
+#app {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Loader */
+#loader {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 999;
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    width: 50px;
+    aspect-ratio: 1;
+    box-shadow: 0 0 0 3px #fff inset;
+    border-radius: 50%;
+}
+.loader:before,
+.loader:after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: calc(50% - 13px);
+    box-shadow: inherit;
+    width: 25px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    transform-origin: 50% calc(100% - 5px);
+    animation: l7 1.5s linear infinite;
+}
+.loader:after {
+    top: calc(100% + 2px);
+    transform-origin: 50% -27px;
+    animation-delay: -0.75s;
+}
+@keyframes l7 {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* rendu */
+#render {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#canvas {
+    position: absolute !important;
+}
+
+.planet-infos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.planet-infos h2 {
+    font-size: 4em;
+    text-align: center;
+    font-style: oblique;
+}
+
+.planet-infos p {
+    font-size: 1em;
+    text-align: center;
+    padding: 0 10%;
+}
+.planet-infos .infos {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.planet-infos .infos .format {
+    display: flex;
+    justify-content: space-between;
+}
+
+.planet-infos .infos .format .info {
+    width: 30%;
+}
+
+.planet-infos .infos ul {
+    list-style: none;
+}
+
+.planet-infos .infos ul li span {
+    display: flex;
+    text-decoration: underline;
+}
+
+.planet-infos-enter {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.planet-infos-enter.planet-infos-enter-active {
+    opacity: 1;
+}
+
+.planet-infos-exit {
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}
+
+.planet-infos-exit.planet-infos-exit-active {
+    opacity: 0;
+}

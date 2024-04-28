@@ -1,0 +1,403 @@
+[
+  {
+    "name": "Soleil",
+    "type": "Etoile naine jaune",
+    "description": "Une étoile de type naine jaune, source principale d'énergie du système solaire. Elle contient plus de 99.8% de la masse totale du système solaire.",
+    "diameter": "1392000 km",
+    "mass": "1.989 x 10^30 kg",
+    "averageTemperature": "5505°C",
+    "rotationPeriod": "25.6",
+    "composition": "Hydrogène (75%), Hélium (24%)",
+    "explorationMissions": [
+      "Parker Solar Probe",
+      "Solar Orbiter"
+    ],
+    "notableFeature": [
+      "Taches solaires, régions de température plus basse causées par des champs magnétiques intenses.",
+      "Éruptions solaires"
+    ],
+    "atmosphereComposition": "Hydrogène, Hélium",
+    "magneticField": "Un champ magnétique complexe qui influence les planètes et les particules solaires."
+  },
+  {
+    "name": "Mercure",
+    "type": "Planète rocheuse",
+    "description": "La planète la plus proche du soleil, caractérisée par des températures extrêmes et une absence d'atmosphère stable.",
+    "diameter": "4879 km",
+    "mass": "3.285 x 10^23 kg",
+    "distanceFromSun": "57900000",
+    "orbitalPeriod": "88",
+    "rotationPeriod": "58.6",
+    "averageTemperature": "167°C",
+    "composition": "Silicate, Fer",
+    "satellites": [],
+    "explorationMissions": [
+      "Mariner 10",
+      "MESSENGER",
+      "BepiColombo"
+    ],
+    "notableFeature": [
+      "Caloris Basin, un immense cratère d'impact.",
+      "Cliffs of Hércules"
+    ],
+    "atmosphereComposition": "Aucune",
+    "magneticField": "Un champ magnétique faible et variable."
+  },
+  {
+    "name": "Vénus",
+    "type": "Planète rocheuse",
+    "description": "Planète connue pour ses températures de surface extrêmement élevées et son atmosphère épaisse et toxique.",
+    "diameter": "12104 km",
+    "mass": "4.867 x 10^24 kg",
+    "distanceFromSun": "108200000",
+    "orbitalPeriod": "225",
+    "rotationPeriod": "-243",
+    "averageTemperature": "464°C",
+    "composition": "Dioxyde de carbone, Azote",
+    "notableFeature": "Atmosphère dense et chaude, avec un effet de serre extrême.",
+    "satellites": [],
+    "explorationMissions": [
+      "Venera Program",
+      "Magellan",
+      "Akatsuki"
+    ],
+    "surfaceFeature": [
+      "Montagnes Maxwell",
+      "Tesserae"
+    ],
+    "atmosphereComposition": "Dioxyde de carbone, traces d'acide sulfurique",
+    "magneticField": "Un champ magnétique faible et variable qui pourrait être généré par des courants électriques dans l'atmosphère."
+  },
+  {
+    "name": "Terre",
+    "type": "Planète rocheuse",
+    "description": "Seule planète connue abritant la vie, avec une vaste diversité de biomes et une atmosphère riche en oxygène.",
+    "diameter": "12756 km",
+    "mass": "5.972 x 10^24 kg",
+    "distanceFromSun": "149600000",
+    "orbitalPeriod": "365",
+    "rotationPeriod": "1",
+    "averageTemperature": "15°C",
+    "composition": "Fer, Oxygène, Silicate",
+    "satellites": [
+      {
+        "name": "Lune",
+        "description": "Le seul satellite naturel de la Terre, avec des phases lunaires et des marées influencées par la gravité terrestre.",
+        "diameter": "3475 km",
+        "mass": "7.342 x 10^22 kg",
+        "distanceFromParent": "384400 km",
+        "orbitalPeriod": "27",
+        "rotationPeriod": "27.3",
+        "type": "Satellite naturel",
+        "averageTemperature": "-20°C",
+        "atmosphereComposition": "Aucune",
+        "notableSurfaceFeatures": [
+          "Mers lunaires",
+          "Cratères d'impact"
+        ],
+        "explorationMissions": [
+          "Apollo Program",
+          "Lunar Reconnaissance Orbiter"
+        ]
+      }
+    ],
+    "explorationMissions": [],
+    "notableFeature": [
+      "Mont Everest, la plus haute montagne du monde.",
+      "Fosse des Mariannes, le point le plus profond de l'océan."
+    ],
+    "atmosphereComposition": "Azote, Oxygène, Argon",
+    "magneticField": ""
+  },
+  {
+    "name": "Mars",
+    "type": "Planète rocheuse",
+    "description": "Planète rouge caractérisée par ses tempêtes de poussière, ses calottes polaires et ses anciens lits de rivières.",
+    "diameter": "6792 km",
+    "mass": "6.39 x 10^23 kg",
+    "distanceFromSun": "227900000",
+    "orbitalPeriod": "687",
+    "rotationPeriod": "1",
+    "averageTemperature": "-65°C",
+    "composition": "Fer, Oxygène, Silicate",
+    "satellites": [
+      {
+        "name": "Phobos",
+        "description": "Le plus grand des deux satellites de Mars, avec une orbite très basse et une surface couverte de cratères.",
+        "diameter": 22,
+        "mass": "1.0659 x 10^16 kg",
+        "distanceFromMars": 9377,
+        "orbitalPeriod": 0.3,
+        "rotationPeriod": 0.3,
+        "type": "Satellite naturel",
+        "averageTemperature": -40,
+        "atmosphereComposition": "Aucune",
+        "notableSurfaceFeatures": [
+          "Cratères Stickney"
+        ],
+        "explorationMissions": [
+          "Mars Express",
+          "Mars Reconnaissance Orbiter"
+        ]
+      },
+      {
+        "name": "Deimos",
+        "description": "Le plus petit des deux satellites de Mars, avec une forme irrégulière et une surface couverte de cratères.",
+        "diameter": 12,
+        "mass": "1.4762 x 10^15 kg",
+        "distanceFromMars": 23460,
+        "orbitalPeriod": 1.3,
+        "rotationPeriod": 1.3,
+        "type": "Satellite naturel",
+        "averageTemperature": -40,
+        "atmosphereComposition": "Aucune",
+        "notableSurfaceFeatures": [
+          "Cratères Voltaire"
+        ],
+        "explorationMissions": [
+          "Mars Express",
+          "Mars Reconnaissance Orbiter"
+        ]
+      }
+    ],
+    "explorationMissions": [
+      "Mars Rovers (Spirit, Opportunity, Curiosity)",
+      "Mars Reconnaissance Orbiter"
+    ],
+    "notableFeature": [
+      "Olympus Mons, le plus grand volcan du système solaire.",
+      "Valles Marineris, le plus grand canyon du système solaire."
+    ],
+    "atmosphereComposition": "Dioxyde de carbone, Azote, Argon",
+    "magneticField": ""
+  },
+  {
+    "name": "Jupiter",
+    "type": "Géante gazeuse",
+    "description": "La plus grande planète du système solaire, Jupiter est une géante gazeuse avec une forte activité atmosphérique et une grande variété de lunes.",
+    "diameter": "142984 km",
+    "mass": "1.898 x 10^27 kg",
+    "distanceFromSun": "778500000",
+    "orbitalPeriod": "4333",
+    "rotationPeriod": "0.41",
+    "averageTemperature": "-110°C",
+    "composition": "Hydrogène, Hélium",
+    "satellites": [
+      {
+        "name": "Io",
+        "description": "Une lune volcaniquement active de Jupiter, avec des geysers de soufre et des lacs de lave.",
+        "diameter": 3643,
+        "mass": "8.9319 x 10^22 kg",
+        "distanceFromJupiter": 421800,
+        "orbitalPeriod": 1.8,
+        "rotationPeriod": 1.8,
+        "type": "Satellite naturel",
+        "averageTemperature": -145,
+        "atmosphereComposition": "Dioxyde de soufre",
+        "notableSurfaceFeatures": [
+          "Geysers de soufre",
+          "Lacs de lave"
+        ],
+        "explorationMissions": [
+          "Galileo"
+        ]
+      },
+      {
+        "name": "Europa",
+        "description": "Une lune glacée de Jupiter, avec un océan souterrain potentiel et des fractures de glace.",
+        "diameter": 3122,
+        "mass": "4.7998 x 10^22 kg",
+        "distanceFromJupiter": 671100,
+        "orbitalPeriod": 3.5,
+        "rotationPeriod": 3.5,
+        "type": "Satellite naturel",
+        "averageTemperature": -160,
+        "atmosphereComposition": "Oxygène, Dioxyde de soufre",
+        "notableSurfaceFeatures": [
+          "Fractures de glace",
+          "Plumes d'eau"
+        ],
+        "explorationMissions": [
+          "Galileo"
+        ]
+      }
+    ],
+    "explorationMissions": [
+      "Pioneer 10",
+      "Voyager 1",
+      "Galileo"
+    ],
+    "notableFeature": [
+      "Grande tache rouge, une tempête anticyclonique géante.",
+      "Bande équatoriale, des bandes de nuages sombres et clairs."
+    ],
+    "atmosphereComposition": "Hydrogène, Hélium",
+    "magneticField": "Un champ magnétique intense qui crée des aurores polaires et protège la planète des particules solaires."
+  },
+  {
+    "name": "Saturne",
+    "type": "Géante gazeuse",
+    "description": "La deuxième plus grande planète du système solaire, Saturne est une géante gazeuse avec des anneaux spectaculaires et de nombreuses lunes.",
+    "diameter": "120536 km",
+    "mass": "5.683 x 10^26 kg",
+    "distanceFromSun": "1433000000",
+    "orbitalPeriod": "10759",
+    "rotationPeriod": "0.45",
+    "averageTemperature": "-140°C",
+    "composition": "Hydrogène, Hélium",
+    "satellites": [
+      {
+        "name": "Titan",
+        "description": "La plus grande lune de Saturne, avec une atmosphère dense et des lacs d'hydrocarbures liquides.",
+        "diameter": 5150,
+        "mass": "1.3455 x 10^23 kg",
+        "distanceFromSaturn": 1221870,
+        "orbitalPeriod": 16,
+        "rotationPeriod": 16,
+        "type": "Satellite naturel",
+        "averageTemperature": -179,
+        "atmosphereComposition": "Azote, Methane",
+        "notableSurfaceFeatures": [
+          "Lacs de méthane",
+          "Dunes de sable"
+        ],
+        "explorationMissions": [
+          "Cassini-Huygens"
+        ]
+      },
+      {
+        "name": "Enceladus",
+        "description": "Une petite lune de Saturne avec des geysers de glace et un océan souterrain potentiel.",
+        "diameter": 504,
+        "mass": "1.08022 x 10^20 kg",
+        "distanceFromSaturn": 238020,
+        "orbitalPeriod": 1.4,
+        "rotationPeriod": 1.4,
+        "type": "Satellite naturel",
+        "averageTemperature": -201,
+        "atmosphereComposition": "Eau, Dioxyde de carbone",
+        "notableSurfaceFeatures": [
+          "Geysers de glace",
+          "Plumes d'eau"
+        ],
+        "explorationMissions": [
+          "Cassini-Huygens"
+        ]
+      }
+    ],
+    "explorationMissions": [
+      "Pioneer 11",
+      "Voyager 2",
+      "Cassini-Huygens"
+    ],
+    "notableFeature": [
+      "Anneaux de Saturne, des disques de glace et de roche en orbite autour de la planète.",
+      "Tempête hexagonale, un motif distinctif de nuages dans l'atmosphère de Saturne."
+    ],
+    "atmosphereComposition": "Hydrogène, Hélium",
+    "magneticField": "Un champ magnétique complexe qui interagit avec les particules des anneaux et des lunes de Saturne."
+  },
+  {
+    "name": "Uranus",
+    "type": "Géante de glace",
+    "description": "Une géante de glace inclinée sur le côté, Uranus est entourée d'un système d'anneaux et de lunes uniques.",
+    "diameter": "51118 km",
+    "mass": "8.681 x 10^25 kg",
+    "distanceFromSun": "2872000000",
+    "orbitalPeriod": "30687",
+    "rotationPeriod": "-0.72",
+    "averageTemperature": "-195°C",
+    "composition": "Eau, Ammoniac, Methane",
+    "satellites": [
+      {
+        "name": "Titania",
+        "description": "La plus grande lune d'Uranus, avec une surface marquée par des cratères et des fractures.",
+        "diameter": 1578,
+        "mass": "3.527 x 10^21 kg",
+        "distanceFromUranus": 435840,
+        "orbitalPeriod": 8.7,
+        "rotationPeriod": 8.7,
+        "type": "Satellite naturel",
+        "averageTemperature": -200,
+        "atmosphereComposition": "Aucune",
+        "notableSurfaceFeatures": [
+          "Cratères",
+          "Vallées"
+        ],
+        "explorationMissions": [
+          "Voyager 2"
+        ]
+      },
+      {
+        "name": "Oberon",
+        "description": "La deuxième plus grande lune d'Uranus, avec une surface couverte de cratères et de canyons.",
+        "diameter": 1523,
+        "mass": "3.014 x 10^21 kg",
+        "distanceFromUranus": 583520,
+        "orbitalPeriod": 13.5,
+        "rotationPeriod": 13.5,
+        "type": "Satellite naturel",
+        "averageTemperature": -200,
+        "atmosphereComposition": "Aucune",
+        "notableSurfaceFeatures": [
+          "Cratères",
+          "Canyons"
+        ],
+        "explorationMissions": [
+          "Voyager 2"
+        ]
+      }
+    ],
+    "explorationMissions": [
+      "Voyager 2"
+    ],
+    "notableFeature": [
+      "Anneaux d'Uranus, des anneaux sombres et étroits.",
+      "Grande tache sombre, une région de température plus chaude dans l'atmosphère d'Uranus."
+    ],
+    "atmosphereComposition": "Hydrogène, Hélium, Methane",
+    "magneticField": "Un champ magnétique incliné qui interagit avec les particules des anneaux et des lunes d'Uranus."
+  },
+  {
+    "name": "Neptune",
+    "type": "Géante de glace",
+    "description": "La planète la plus éloignée du soleil, Neptune est une géante de glace avec des vents violents et une grande lune, Triton.",
+    "diameter": "49528 km",
+    "mass": "1.024 x 10^26 kg",
+    "distanceFromSun": "4495000000",
+    "orbitalPeriod": "60190",
+    "rotationPeriod": "0.67",
+    "averageTemperature": "-200°C",
+    "composition": "Eau, Ammoniac, Methane",
+    "satellites": [
+      {
+        "name": "Triton",
+        "description": "La plus grande lune de Neptune, avec une surface glacée et des geysers de glace.",
+        "diameter": 2707,
+        "mass": "2.14 x 10^22 kg",
+        "distanceFromNeptune": 354800,
+        "orbitalPeriod": -5.9,
+        "rotationPeriod": -5.9,
+        "type": "Satellite naturel",
+        "averageTemperature": -235,
+        "atmosphereComposition": "Azote, Methane",
+        "notableSurfaceFeatures": [
+        "Geyser de glace",
+        "Plaines de glace"
+        ],
+        "explorationMissions": [
+          "Voyager 2"
+        ]
+      }
+    ],
+    "explorationMissions": [
+      "Voyager 2"
+    ],
+    "notableFeature": [
+      "Grande tache sombre, une tempête anticyclonique géante.",
+      "Anneaux de Neptune, des anneaux étroits et sombres."
+    ],
+    "magneticField": "Un champ magnétique incliné qui interagit avec les particules des anneaux et des lunes de Neptune.",
+    "atmosphereComposition": "Hydrogène, Hélium, Methane"
+  }
+]

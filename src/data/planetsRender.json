@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Soleil",
+    "textureUrl": "/textures/planets/sun.jpg",
+    "size": 15,
+    "orbitalAngle": 0,
+    "orbitRadius": 0,
+    "orbitalSpeed": 0,
+    "cameraOffset": 50,
+    "rotationAxis": [0, 1, 0]
+  },
+  {
+    "name": "Mercure",
+    "textureUrl": "/textures/planets/mercury.jpg",
+    "size": 0.38,
+    "orbitalAngle": 0.034,
+    "orbitRadius": 30,
+    "orbitalSpeed": 3,
+    "cameraOffset": 2,
+    "rotationAxis": [0, 1, 0]
+  },
+  {
+    "name": "Vénus",
+    "textureUrl": "/textures/planets/venus.jpg",
+    "size": 0.95,
+    "orbitalAngle": 177.4,
+    "orbitRadius": 50,
+    "orbitalSpeed": 1.5,
+    "cameraOffset": 4,
+    "rotationAxis": [0, 1, 0]
+  },
+  {
+    "name": "Terre",
+    "textureUrl": "/textures/planets/earth.jpg",
+    "size": 1,
+    "orbitalAngle": 23.4,
+    "orbitRadius": 70,
+    "orbitalSpeed": 1,
+    "cameraOffset": 6,
+    "rotationAxis": [0, 1, 0],
+    "satellites": [
+      {
+        "name": "Lune",
+        "textureUrl": "/textures/planets/moon.jpg",
+        "size": 0.27,
+        "orbitalAngle": 6.7,
+        "orbitRadius": 3,
+        "orbitalSpeed": 2.3,
+        "cameraOffset": 1,
+        "rotationAxis": [0, 1, 0]
+      }
+    ]
+  },
+  {
+    "name": "Mars",
+    "textureUrl": "/textures/planets/mars.jpg",
+    "size": 0.53,
+    "orbitalAngle": 25.2,
+    "orbitRadius": 90,
+    "orbitalSpeed": 0.8,
+    "cameraOffset": 4,
+    "rotationAxis": [0, 1, 0]
+  },
+  {
+    "name": "Jupiter",
+    "textureUrl": "/textures/planets/jupiter.jpg",
+    "size": 7,
+    "orbitalAngle": 3.1,
+    "orbitRadius": 120,
+    "orbitalSpeed": 0.2,
+    "cameraOffset": 25,
+    "rotationAxis": [0, 1, 0]
+  },
+  {
+    "name": "Saturne",
+    "textureUrl": "/textures/planets/saturn.jpg",
+    "size": 6.14,
+    "orbitalAngle": 26.7,
+    "orbitRadius": 150,
+    "orbitalSpeed": 0.1,
+    "cameraOffset": 17,
+    "rotationAxis": [0, 1, 0]
+  },
+  {
+    "name": "Uranus",
+    "textureUrl": "/textures/planets/uranus.jpg",
+    "size": 3.98,
+    "orbitalAngle": 97.8,
+    "orbitRadius": 200,
+    "orbitalSpeed": 0.05,
+    "cameraOffset": 10,
+    "rotationAxis": [0, 1, 0]
+  },
+  {
+    "name": "Neptune",
+    "textureUrl": "/textures/planets/neptune.jpg",
+    "size": 3.86,
+    "orbitalAngle": 28.3,
+    "orbitRadius": 250,
+    "orbitalSpeed": 0.02,
+    "cameraOffset": 10,
+    "rotationAxis": [0, 1, 0]
+  }
+]
