@@ -22,9 +22,6 @@ FROM nginx:alpine
 # Copier les fichiers construits depuis l'étape de construction
 COPY --from=builder /app/dist /usr/share/nginx/html
 
-# Copier un fichier de configuration Nginx personnalisé si nécessaire
-# COPY nginx.conf /etc/nginx/nginx.conf
-
 # Définir le port sur lequel Nginx écoute
 ENV PORT=4000
 
