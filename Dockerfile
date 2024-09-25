@@ -5,7 +5,7 @@ FROM node:16-alpine AS build
 WORKDIR /app
 
 # Copier les fichiers de dépendances
-COPY package.json package-lock.json ./
+COPY package.json ./
 
 # Installer toutes les dépendances, y compris devDependencies
 RUN npm install
