@@ -7,7 +7,7 @@ WORKDIR /app
 # Copier les fichiers de dépendances
 COPY package.json ./
 
-# Installer toutes les dépendances, y compris devDependencies
+# Installer toutes les dépendances
 RUN npm install
 
 # Copier le reste des fichiers de l'application
@@ -16,20 +16,20 @@ COPY . .
 # Construire l'application pour la production
 RUN npm run build
 
-# Étape 2 : Serveur Nginx pour servir l'application
-FROM nginx:alpine
+# Étape 2 : Serveur léger pour servir l'application
+FROM node:16-alpine
+
+# Définir le répertoire de travail
+WORKDIR /app
 
 # Copier les fichiers construits depuis l'étape de build
-COPY --from=build /app/dist /usr/share/nginx/html
+COPY --from=build /app/dist /app
 
-# Supprimer la configuration par défaut de Nginx
-RUN rm /etc/nginx/conf.d/default.conf
+# Installer un serveur HTTP statique comme 'serve'
+RUN npm install -g serve
 
-# Copier une configuration personnalisée de Nginx
-COPY nginx.conf /etc/nginx/conf.d/
+# Exposer le port 3002
+EXPOSE 3002
 
-# Exposer le port 4000
-EXPOSE 4000
-
-# Démarrer Nginx
-CMD ["nginx", "-g", "daemon off;"]
+# Démarrer le serveur sur le port 3002
+CMD ["serve", "-s", "/app", "-l", "3002"]

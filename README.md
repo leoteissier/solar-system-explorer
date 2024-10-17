@@ -34,7 +34,7 @@ Assurez-vous d'avoir **Node.js** et **npm** installés sur votre système. Vous 
 1. **Cloner le dépôt du projet :**
 
    ```bash
-   git clone https://github.com/leoteissier/solar-system-explorer.git
+   git clone https://gitlab.com/leoteissier/solar-system-explorer.git
    ```
 
 2. Accéder au répertoire du projet :
@@ -72,12 +72,12 @@ docker build -t solar-system-explorer:latest .
 2. Exécuter le conteneur Docker :
 
 ```bash
-docker run -d -p 4000:4000 --name solar-system-explorer solar-system-explorer:latest
+docker run -d -p 3002:3002 --name solar-system-explorer solar-system-explorer:latest
 ```
 
 3. Accéder à l'application :
 
-Ouvrez votre navigateur et allez à `http://localhost:4000/`.
+Ouvrez votre navigateur et allez à `http://localhost:3002/`.
 
 ## Auteur
 
